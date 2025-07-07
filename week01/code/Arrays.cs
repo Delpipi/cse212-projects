@@ -49,7 +49,7 @@ public static class Arrays
 
         //Previous operation increase the length and shift
         //content of array by 'amount' length to the right
-        //Remove element from index 'amount' to 'data.Count - amount'
+        //Remove element from index 'data.Count - amount' for 'amount' values
         data.RemoveRange(data.Count - amount, amount);
     }
 }
